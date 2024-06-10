@@ -1,11 +1,11 @@
 public class Cioccolato {
     public String tipoCioccolato;
     public  float percentuale;
-    public int numerocioccolatini;
-    public Cioccolato(String tipoCioccolato,float percentuale, int numerocioccolatini){
+    public int numeroCioccolato;
+    public Cioccolato(String tipoCioccolato,float percentuale, int numeroCioccolato){
         this.tipoCioccolato=tipoCioccolato;
         this.percentuale=percentuale;
-        this.numerocioccolatini=100;
+        this.numeroCioccolato=100;
     }
 
     public void produce(){
