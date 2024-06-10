@@ -2,7 +2,7 @@ public class Cioccolato {
     public String tipoCioccolato;
     public  float percentuale;
     public int numerocioccolatini;
-    public Cioccolato(String tipoCioccolato,float percentuale){
+    public Cioccolato(String tipoCioccolato,float percentuale, int numerocioccolatini){
         this.tipoCioccolato=tipoCioccolato;
         this.percentuale=percentuale;
         this.numerocioccolatini=100;
