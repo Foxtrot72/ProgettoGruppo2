@@ -1,4 +1,4 @@
-
+// ciao
 public class Tavoletta extends Cioccolato {
 
     public double peso;
