@@ -8,7 +8,7 @@ public class Cioccolato {
         this.numerocioccolatini=100;
     }
 
-    public void produce(String tipoCioccolato, float percentuale ){
+    public void produce(){
         String info=""+this.tipoCioccolato+ ""+this.percentuale;
         System.out.println(info);
     }
