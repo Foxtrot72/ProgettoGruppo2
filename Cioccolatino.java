@@ -11,12 +11,6 @@ public class Cioccolatino extends Cioccolato{
 //versione override
     @Override
     public void produce(){
-
-        this.numeroCioccolato-= 2;
-        System.out.println("Numero di cioccolato rimanente: " + this.numeroCioccolato);
-        this.numeroCioccolato-= 2;
-        System.out.println("Numero di cioccolato rimanente: " + this.numeroCioccolato);
-
         this.numeroCioccolato-= 2;
         System.out.println("Numero di cioccolato rimanente: " + this.numeroCioccolato);
 
