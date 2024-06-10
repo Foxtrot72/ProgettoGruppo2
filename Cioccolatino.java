@@ -11,8 +11,13 @@ public class Cioccolatino extends Cioccolato{
 
     @Override
     public void produce(){
+<<<<<<< Updated upstream
         this.numerocioccolatini-= 2;
         System.out.println("Numero di cioccolato rimanente: " + this.numerocioccolatini);
+=======
+        this.numeroCioccolato-= 2;
+        System.out.println("Numero di cioccolato rimanente: " + this.numeroCioccolato);
+>>>>>>> Stashed changes
     }
 
 
